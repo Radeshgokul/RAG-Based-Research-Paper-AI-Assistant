@@ -13,7 +13,6 @@
 # router = APIRouter()
 
 # # Initiate the paper processor system with the Groq API key
-# GROQ_API_KEY = "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"
 # UPLOAD_DIR = os.path.join(settings.UPLOAD_DIR, "papers")
 # AUDIO_DIR = os.path.join(settings.UPLOAD_DIR, "audio")
 

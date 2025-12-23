@@ -62,7 +62,7 @@ class Settings:
     MAX_UPLOAD_SIZE: int = 20 * 1024 * 1024  # 20MB max upload size
     
     # Paper processor settings
-    GROQ_API_KEY: str = os.getenv("GROQ_API_KEY", "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")
+    GROQ_API_KEY = os.getenv("GROQ_API_KEY")
     AUDIO_OUTPUT_DIR: str = os.getenv("AUDIO_OUTPUT_DIR", os.path.join(UPLOAD_DIR, "audio"))
 
 settings = Settings()
